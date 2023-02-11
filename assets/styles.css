@@ -1,0 +1,64 @@
+body {
+    background: #fff;
+    color: #330;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: 200;
+}
+
+.container {
+    max-width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.content {
+    margin: 40px 0 0 380px;
+}
+
+.employment-status {
+    font-weight: 700;
+}
+
+header {
+    margin-top: 40px;
+    float: left;
+    width: 310px;
+}
+
+a,
+a:visited {
+    color: #00bfff;
+    text-decoration: none;
+    border-bottom: 1px solid #ededed;
+}
+
+a:hover {
+    color: #0f0ce9;
+    border-color: #bbb;
+}
+
+b {
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.portrait {
+    width: 300px;
+}
+
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        float: none;
+    }
+
+    .content {
+        margin-left: 0px;
+    }
+}
